@@ -105,7 +105,6 @@ class KeepCursorPosition {
             GLFW.glfwSetInputMode(handle, GLFW.GLFW_CURSOR, GLFW.GLFW_CURSOR_NORMAL);
         }
 
-        // Native mode changes can overwrite coordinates; sync them after releasing.
         mouseFields.xpos.setDouble(mouse, x);
         mouseFields.ypos.setDouble(mouse, y);
         mouseFields.mouseGrabbed.setBoolean(mouse, false);
