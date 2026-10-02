@@ -16,8 +16,8 @@ try {
         fields[name] = field;
     }
     mouseFields = fields;
-} catch (error) {
-    console.error(`[V5] Keep Cursor Position disabled: unable to access mouse handler fields. ${error}`);
+} catch {
+    mouseFields = null;
 }
 
 class KeepCursorPosition {
