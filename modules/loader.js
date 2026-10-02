@@ -74,6 +74,7 @@ import './other/Failsafes';
 import './other/Freecam';
 import './other/Freelook';
 import './other/InventoryWalk';
+import './other/KeepCursorPosition';
 import './other/LeftClickEtherwarp';
 import './other/RatProtection';
 import './other/VoidgloomHelper';
